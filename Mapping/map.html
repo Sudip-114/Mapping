@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Map Navigator with Dijkstra</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="map"></div>
+  <div class="controls">
+    <button onclick="computePath()">Compute Shortest Path</button>
+    <p id="output">Click on the map to place nodes (min 2), then click compute.</p>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADyA-cP3MV3S9iD5fakqCt-6PKHq-I8x4&libraries=geometry&callback=initMap" async defer></script>
+</body>
+</html>
+
+
+<!-- Api key : AIzaSyADyA-cP3MV3S9iD5fakqCt-6PKHq-I8x4 -->
